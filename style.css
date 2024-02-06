@@ -24,6 +24,19 @@ img {
 .row {
     display: flex;
     align-items: center;
+    padding-top: 40px;
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .head-row {
@@ -31,6 +44,22 @@ img {
     padding: 10px 0px;
 }
 
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-332 {
+    width: calc(100% / 3);
+    margin: 10px;
+}
+.content-33 {
+    background-color: #FF6900;
+
+}
+
+.space {
+
+}
 /*-------------
     GENERAL
 -------------*/
@@ -66,4 +95,5 @@ a {
 
 .logo {
     width: 15%;
+    margin-right: 110px;
 }
